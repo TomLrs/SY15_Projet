@@ -2,7 +2,7 @@
 
 # Compilation
 echo "Compilation du programme..."
-gcc -o main main.c
+gcc -o main main.c -lm
 if [ $? -ne 0 ]; then
     echo "Erreur à la compilation !"
     exit 1
