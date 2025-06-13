@@ -265,7 +265,7 @@ int main() {
   preparationCommandes(); // Initialisation des commandes
 
   agv1_arrivee_prod(); // Initialisation du premier evenement
-  double chargeMoyenneAVG;
+  double chargeMoyenneAVG = 0.0;
 
   while (t < H) {
     if (event_count >= MAX_EVENTS) {
